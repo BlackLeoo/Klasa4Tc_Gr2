@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>formularze</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <h1>formularz</h1>
+    </header>
+    <form action="" method="POST" class="form">
+      <div class="formInput">
+        <div class="formInputSize">
+          <div class="formLabel">
+            <label for="imie">Imie</label>
+          </div>
+          <div class="formInputBox">
+            <input
+              type="text"
+              id="imie"
+              name="imie"
+              placeholder="Podaj Imię"
+              required
+            />
+          </div>
+        </div>
+        <div class="formInputSize">
+          <div class="formLabel">
+            <label for="nazwisko">Nazwisko</label>
+          </div>
+          <div class="formInputBox">
+            <input
+              type="text"
+              id="nazwisko"
+              name="nazwisko"
+              placeholder="Podaj Nazwisko"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="formInput">
+        <div class="formInputSize">
+          <div class="formLabel">
+            <label for="emai">E-mail</label>
+          </div>
+          <div class="formInputBox">
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Podaj E-mail"
+              required
+            />
+          </div>
+        </div>
+      </div>
+      <div class="formInput">
+        <div class="formInputSize">
+          <div class="frmInputSubmit">
+            <input type="submit" value="Zaloguj" />
+          </div>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
